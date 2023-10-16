@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1 img{
+    margin-left:30px;
+    margin-top:20px; 
+    width: 160px;
+    height: 80px; 
+}  
+.container1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100vh;
+    background-color: #A077EF;
+}
+.container2{
+    position: absolute;
+    top: 0;
+    left: 29%;
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.girl{
+    width: 45em;
+    height: 45em; 
+    position: absolute;
+    top: -10px;
+    left: -40px;
+}
+
+.login{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    left: 150px;
+}
+
+.loginopt{
+    display: flex;
+    position: relative;
+    top: 95px;
+    left: 260px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 450px;
+}
+
+.options{
+    display: flex;
+    border: 2px solid #C8BDBD;
+    /* border: 2px solid red; */
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.login-logo{
+    width: 20px;
+    height: 20px;
+}
+span{
+    position: relative;
+    color: #C8BDBD;
+    position: relative;
+    top: 130px;
+    left: 470px;
+}
+.loginform{
+    position: relative;
+    top: 140px;
+    left: 280px;
+    display: block;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 415px;
+    padding: 10px;
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C8BDBD;
+}
+#verify{
+    margin-top: 50px;
+}
+
+#verifybtn, #sendotp{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #A077EF;
+    color: white;
+}
+.timer{
+    position: relative;
+    top: 240px;
+    left: 385px;
+    color: rgb(41, 37, 37);
+}
